@@ -1,0 +1,3 @@
+conda create --name Polars_Query_LLM
+conda install -c conda-forge transformers datasets 
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
